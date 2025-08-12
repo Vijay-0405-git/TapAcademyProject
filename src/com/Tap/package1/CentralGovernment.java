@@ -1,8 +1,7 @@
 package com.Tap.package1;
 
 
-import java.util.Scanner;
-Collections
+import java.util.*;
 
 class UnderAgeException extends Exception{
 	@Override
