@@ -27,8 +27,9 @@ public class MultiThreading  {
         MyThread t2 = new MyThread("Thread-2");
         MyThread t3 = new MyThread("Thread-3");
 
+        
         t1.start(); // Start Thread-1
-        t1.join();
+        t1.join();//wait till thread-1 executes completely
         
         t2.start(); // Start Thread-2
         t3.start(); // Start Thread-3
